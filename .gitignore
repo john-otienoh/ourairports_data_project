@@ -225,3 +225,27 @@ dist/
 
 # Streamlit
 .streamlit/secrets.toml
+
+*.Identifier
+# Environment
+.env
+.env.local
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+data/*.duckdb
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Alembic (keep folder, ignore cache)
+alembic/__pycache__/
+
+# IDE
+.vscode/
+.idea/data/analytics.duckdb
